@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CYNTHIA MEDLEJ</title>
+  <link rel = 'stylesheet' type = 'text/css' href = 'styles.css' /> 
+  <script>
+    function showBar(){
+     document.getElementById('chat').classList.remove('chat-bar');
+    }
+    function hideBar(){
+      document.getElementById('chat').classList.add('chat-bar');
+    }
+    function Alert(){
+      alert("I said Do Not Touch! Don't you know how to read?! But you're a risk taker and that's cool");
+      }
+</script>
+  </script>
+  </head>
+  <body id = "profile">
+     <h1> You're at the right place:)</h1>
+     <a id = "goback" href = "index.html">Back To Search</a>
+     <button id = alert onclick="Alert()">Do Not Touch</button>
+   <div>
+     <img src= "images/me4.jpg" alt = me id = "my-picture"/>
+  </div>
+  <div class="dropdown">
+    <span>More Links</span>
+    <div class="dropdown-content">
+      <p>LinkedIn</p>
+      <p>Twitter</p>
+      <p>VSCO</p>
+      <p>Facebook</p>
+      <p>Too lazy to make them work</p>
+    </div>
+  </div>
+    <a id = "instagram" href = "https://www.instagram.com/cynthia_medlej">Follow Cynthia on Instagram</a>
+    <div id = "profile-buttons">
+     <button  class = "profile-button" onclick = "showBar()" ondblclick="hideBar()">Message Cynthia</button>
+     <input id = 'chat' class = "chat-bar" placeholder = "Say Hi!..." />
+     <button class = "profile-button">Share Profile</button>
+  </div>
+
+  <div id = "features">
+    <img src= "images/major.jpg" alt = major id = "my-major"/>
+    <img src ="images/hobby.png" alt = hobby id = "my-hobby"/>
+    <img src= "images/country.jpg" alt = country id = "my-country"/>
+  </div>
+  <a class = "my-links" id = "major-link" href = "https://catalog.gatech.edu/programs/computer-science-bs/">More about my major</a>
+  <a class = "my-links" href = "https://alsarabdance.com" >More about my hobby</a>
+  <a class = "my-links" href = "https://en.wikipedia.org/wiki/Lebanon">More about my country</a>
+   </a>
+  </body>
+</html>

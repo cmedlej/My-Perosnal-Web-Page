@@ -1,0 +1,234 @@
+/* YOUR STYLES HERE */
+#mainpage {
+    font-family :Arial, Helvetica, sans-serif;
+    background-image:url("https://www.wallpapertip.com/wmimgs/15-159393_banksy-wallpaper-hd-banksy-best-works.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+#menu {
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+}
+.menu-item {
+    font-size:14px ;
+    color:black;
+    margin: 0px 10px;
+    text-decoration: none;
+}
+.menu-item:hover {
+    text-decoration: underline;
+}
+
+#profile-pic {
+  height:32px;
+  width:32px;
+  border-radius: 16px
+}
+#profile-pic:hover {
+  box-shadow: 0px 0px 5px #C2C2C2;  
+}
+
+#store-link{
+    margin-right: auto;
+}
+#search{
+    margin-top: 120px;
+    text-align:center ;
+}
+#main-logo{
+    width:272px;
+}
+#search-bar{
+    height: 34px;
+    font-size: 17px;
+    border-radius: 17px;
+    border: 1px solid #C2C2C2 ;
+    width: 90%;
+    max-width: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+}
+#search-bar:hover,
+#search-bar:focus{
+    box-shadow: 0px 0px 5px #C2C2C2;
+}
+
+#search-buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.search-button{
+    margin: 8px;
+    padding: 8px 15px;
+    cursor: pointer;
+
+    background-color: #f8f9fa;
+    border:1px solid #4b4b4b;
+    border-radius: 4px;
+}
+.search-button:hover{
+    box-shadow:0px 0px 5px #C2C2C2 ;
+}
+#profile{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(99, 156, 156);
+    background-size: 100% 100%
+}
+
+
+#goback{
+    font-size:16px ;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#goback:hover{
+    text-decoration: underline;
+}
+#features{
+    text-align:center;
+}
+#my-picture{
+    display:flex;
+    height: 300px;
+    width: 300px;
+}
+#my-picture:hover {
+    box-shadow:0px 0px 10px #C2C2C2;
+}
+#instagram{
+    padding-left: 37.5%;
+    font-size:14px ;
+    color:black;
+    margin: 0px 10px;
+    text-decoration: none;
+}
+#instagram:hover{
+    text-decoration: underline;
+}
+#profile-buttons{
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.profile-button{
+    background-color: #f1f1f1;
+    border:1px solid #ffffff;
+    border-radius: 4px;
+    margin: 8px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+.profile-button:hover{
+    box-shadow:0px 0px 5px #C2C2C2 ;
+}
+
+
+#my-picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+
+#features{
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#my-major{
+    margin: 8px;
+    padding: 8px 15px;
+    height: 100px;
+    width: 100px;
+}
+#my-major:hover{
+    transform: scale(1.2);
+}
+
+#my-hobby{
+    margin: 8px;
+    padding: 8px 15px;
+    height: 100px;
+    width: 100px;
+}
+#my-hobby:hover{
+    transform: scale(1.2)
+}
+
+#my-country{
+    margin: 8px;
+    padding: 8px 15px;
+    height: 100px;
+    width: 100px;
+}
+#my-country:hover{
+    transform: scale(1.2)
+}
+
+.my-links{
+    font-size:14px ;
+    color:black;
+    margin: 0px 10px;
+    text-decoration: none;
+}
+.my-links:hover{
+    text-decoration: underline;
+}
+
+#major-link{
+    padding-left:33.5%;
+}
+
+.dropdown {
+    color: white;
+    font-size: 14px;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    color:black;
+    font-size: 14px;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+.dropdown:hover .dropdown-content {
+    display:block ;
+  }
+.dropdown-content:hover{
+      color:rgb(99, 156, 156);
+  }
+
+.chat-bar{ 
+    display:none !important;
+}
+#chat{
+    display:flex;
+    height: 34px;
+    font-size: 17px;
+    border-radius: 17px;
+    border: 1px solid #C2C2C2 ;
+    width: 10%;
+    max-width: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+
+}
+#alert{
+    color: teal;
+    background-color: black;
+    border-radius: 4px;
+}
